@@ -1,4 +1,5 @@
 <html>
+	<!-- Coded by Archit -->
 	<head>
 		<link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
 		<style>
@@ -7,13 +8,22 @@
 				font-family: 'Staatliches', cursive;
 				font-size: 10vw;
 			}
+			.copy{
+				color: white;
+				font-family: Courier;
+				font-size: 2vw;
+			}
+			.bottom{
+				border: none;
+				background-color: black;
+			}
 			html{
 				background-color: black;
 			}
 		</style>
 		<script>
 			function bgchanger(){
-				document.body.style.backgroundColor = 'rgb(' + Math.random() * 360 + ',' + Math.random()*360 + ',' + Math.random()*360 + ')';
+				document.body.style.backgroundColor = 'rgb(' + Math.random() * 360 + ',' + Math.random()*300 + 60 + ',' + Math.random()*360 + ')';
 				window.setTimeout(bgchanger, 1000);
 			}
 		</script>
@@ -21,6 +31,13 @@
 	<body onload = "bgchanger()">
 		<center>
 			<font class = "heads">Want to learn to <font color = "black"><b><u>code</u></b></font> <i>Quick?</i></font>
+			<br><br><br><br><br><br><br><br><br><br><br>
+			<div class = "bottom">
+			<font class = "copy">
+				&copy ArchitProjs<br><br><br>
+				Similar sites: <a href = "architmehta.tk"> Game Mine </a>, <a href = "codecademy.com"> Coding School </a>
+			</font>
+			</div>
 		</center>
 	</body>
 </html>
