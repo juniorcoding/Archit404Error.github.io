@@ -1,19 +1,26 @@
-!DOCTYPE HTML
 <html>
 	<head>
 		<link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+		<style>
+			.heads{
+				color: white;
+				font-family: 'Staatliches', cursive;
+				font-size: 10vw;
+			}
+			html{
+				background-color: black;
+			}
+		</style>
+		<script>
+			function bgchanger(){
+				document.body.style.backgroundColor = 'rgb(' + Math.random() * 360 + ',' + Math.random()*360 + ',' + Math.random()*360 + ')';
+				window.setTimeout(bgchanger, 1000);
+			}
+		</script>
 	</head>
-	<style>
-		.heads{
-			color: white;
-			font-family: 'Staatliches', cursive;
-			font-size: 20vw;
-		}
-		html{
-			backgrond-color: black;
-		}
-	</style>
-	<center>
-		<font class = "heads">Want to learn to code <i>Quick?</i></font>
-	</center>
+	<body onload = "bgchanger()">
+		<center>
+			<font class = "heads">Want to learn to <font color = "black"><b><u>code</u></b></font> <i>Quick?</i></font>
+		</center>
+	</body>
 </html>
