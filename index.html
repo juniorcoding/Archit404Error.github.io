@@ -14,8 +14,24 @@
 				font-size: 2vw;
 			}
 			.bottom{
-				border: none;
+				border: 3px solid white;
 				background-color: black;
+			}
+			#loading {
+				-webkit-animation: rotation 2s infinite linear;
+			}
+			.typdiv{
+				background-color: white;
+				width: 4vw;
+				height: 4vw;
+			}
+			@-webkit-keyframes rotation {
+				from {
+					-webkit-transform: rotate(0deg);
+				}
+				to {
+					-webkit-transform: rotate(359deg);
+				}
 			}
 			html{
 				background-color: black;
@@ -31,7 +47,11 @@
 	<body onload = "bgchanger()">
 		<center>
 			<font class = "heads">Want to learn to <font color = "black"><b><u>code</u></b></font> <i>Quick?</i></font>
-			<br><br><br><br><br><br><br><br><br><br><br>
+			<br><br><br><br>
+			<div class = "typdiv" id = "loading"></div>
+			<br><br><br>
+			<font class = "copy"><i>Well then, this is the site for you! I'm Archit, and I'll be updating it constantly with new tips constantly, so that <b><u>ANY</u></b> site can look as good as this one!</i></font><br>
+			<br><br>
 			<div class = "bottom">
 			<font class = "copy">
 				&copy ArchitProjs<br><br><br>
