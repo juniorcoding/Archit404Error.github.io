@@ -1,0 +1,117 @@
+			.heads{
+				
+				color: white;
+				
+				font-family: 'Staatliches', cursive;
+				
+				font-size: 10vw;
+			
+			}
+			
+			.menudiv{
+				
+				color: #0dc9fc;
+				
+				overflow: hidden;
+			
+			}
+			
+			.menudiv a {
+
+  				text-align: center;
+
+  				padding: 14px 16px;
+
+  				text-decoration: none;
+
+				color: white;
+
+				font-family: 'Staatliches', cursive;
+
+				font-size: 2vw;
+
+			}
+
+			.menudiv a:hover{
+
+				color: orange;
+
+			}
+
+			.colordiv{
+				color: none;
+				overflow: hidden;
+			}
+			.colordiv a{
+				text-align: center;
+
+  				padding: 10px 12px;
+
+  				text-decoration: none;
+
+				color: black;
+
+				font-family: 'Staatliches', cursive;
+
+				font-size: 1vw;
+				
+			}
+			.colordiv a:hover{
+				color: white;
+				font-size: 2vw;
+			}
+			.copy{
+
+				color: white;
+
+				font-family: Courier;
+
+				font-size: 2vw;
+
+			}
+
+			.bottom{
+
+				border: 3px solid white;
+
+				background-color: black;
+
+			}
+
+			#loading {
+
+				-webkit-animation: rotation 2s infinite linear;
+
+			}
+
+			.typdiv{
+
+				background-color: white;
+
+				width: 4vw;
+
+				height: 4vw;
+
+			}
+
+			@-webkit-keyframes rotation {
+
+				from {
+
+					-webkit-transform: rotate(0deg);
+
+				}
+
+				to {
+
+					-webkit-transform: rotate(359deg);
+
+				}
+
+			}
+
+			html{
+
+				background-color: orange;
+
+			}
