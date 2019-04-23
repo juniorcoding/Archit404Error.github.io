@@ -14,6 +14,9 @@
 				color: white;
 				font-family: 'Staatliches', cursive;
 				font-size: 2vw;
+				position: relative;
+				overflow: hidden;
+				top: 0;
 			}
 			.menudiv a:hover{
 				color: orange;
@@ -70,6 +73,21 @@
   				letter-spacing: .15em;
   				animation: 
     				typing 3.5s;
+			}
+			.info{
+				font-family: courier;
+				border-radius: 50%;
+				width: 30vw;
+				height: 30vw;
+				background-color: green;
+				opacity: 0.75;
+				position: ZmxhZ3tt;
+				animation: fadein 20s;
+				font-size: 10vw;
+			}
+			@keyframes fadein{
+				from { opacity: 0; }
+				to { opacity: 0.75; }
 			}
 
 			/* The typing effect */
