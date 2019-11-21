@@ -13,7 +13,7 @@ a:link, a:visited, a:hover, a:focus{text-decoration: none; color: #00008b;}
 
 .left-control:hover,
 .right-control:hover {
-	background-color: #00008b;
+	background-color: gold;
 }
 
 .learn-more {
@@ -25,6 +25,7 @@ a:link, a:visited, a:hover, a:focus{text-decoration: none; color: #00008b;}
 
 .left-control, .right-control {
 	border:1px solid #00008b;
+	background-color: #fff;
 }
 /* End Home Slider */
 
