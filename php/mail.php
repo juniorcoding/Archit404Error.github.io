@@ -13,10 +13,7 @@ if($_POST) {
 	$email = trim($_POST['email']);
 	$msg = trim($_POST['message']);  
 	$ip = $_SERVER['REMOTE_ADDR'];
-
-  
-	/* Change Here Your Email Address*/
-	$to = "myname@email.com";
+	$to = "surgeelectric@gmail.com";
 
 	// Prepare message
 	$message = "You have received email from: ".$name.", ".$email.".<br />";
